@@ -5,4 +5,6 @@ module org.javaclass.arrays {
 
     opens org.javaclass.arrays to javafx.fxml;
     exports org.javaclass.arrays;
+    exports org.javaclass.arrays.exercises;
+    opens org.javaclass.arrays.exercises to javafx.fxml;
 }
